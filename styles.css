@@ -1,0 +1,53 @@
+body{
+  background-image: url(/undraw_wallet_aym5.svg);
+  background-color: yellowgreen;
+  color: whitesmoke ;
+}
+h1 {
+  font-size: xx-large;
+}
+
+div {
+  font-size: x-large;
+  margin: 0.5rem;
+}
+
+section {
+  
+  padding: 1rem;
+  text-align: center;
+}
+
+input {
+  margin-block-end: 0.5rem;
+  padding: 0.5rem;
+  border-radius: 0.5rem;
+  
+}
+
+button {
+  padding: 0.5rem;
+  width: 20vh;
+  font-size: 1rem;
+  border-radius: 1rem;
+  
+}
+
+.center {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#table {
+  padding: 1rem;
+}
+
+table {
+  border-style: groove;
+  border-color: black ;
+}
+
+.noOfNotes{
+  font-size: 20px;
+  font-weight: 600;
+}
