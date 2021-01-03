@@ -1,18 +1,23 @@
-body{
-  background-color: yellowgreen;
-  color: whitesmoke ;
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&display=swap" rel="stylesheet');
+
+body {
+  font-family: 'Dancing Script', cursive;
+  background-image: url("./website-ideas.jpg");
+  background-color:#0b1a2b;
+  color: white;
 }
+
 h1 {
-  font-size: xx-large;
+  font-size: xx-large
 }
 
 div {
-  font-size: x-large;
+  font-size: xx-large;
   margin: 0.5rem;
 }
 
 section {
-  
+
   padding: 1rem;
   text-align: center;
 }
@@ -21,7 +26,7 @@ input {
   margin-block-end: 0.5rem;
   padding: 0.5rem;
   border-radius: 0.5rem;
-  
+
 }
 
 button {
@@ -29,7 +34,7 @@ button {
   width: 20vh;
   font-size: 1rem;
   border-radius: 1rem;
-  
+
 }
 
 .center {
@@ -43,33 +48,35 @@ button {
 
 table {
   border-style: groove;
-  border-color: black ;
+  border-color: black;
+  font-size: x-large;
+
 }
 
-.noOfNotes{
+.noOfNotes {
   font-size: 20px;
   font-weight: 600;
 }
 
 /* footer */
-.footer{
+.footer {
   background-color: var(--primary-color);
-  padding: 2rem 1rem;
   text-align: center;
   color: white;
+  font-size: x-large;
   border-top-right-radius: 1rem;
 }
 
-.footer .link{
+.footer .link {
   color: white;
 }
 
-.footer .footer-header{
+.footer .footer-header {
   font-weight: bold;
   font-size: large;
 }
 
-.footer ul{
+.footer ul {
   padding-inline-start: 0px
 }
 
@@ -82,6 +89,7 @@ table {
   display: inline;
   padding: 0rem 0.5rem;
 }
+
 .link {
   text-decoration: none;
   padding: 0.5rem 1rem;
