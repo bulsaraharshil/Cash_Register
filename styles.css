@@ -2,7 +2,8 @@
 
 body {
   font-family: 'Dancing Script', cursive;
-  background-image: url("./website-ideas.jpg");
+  background-image: url("./the-money-heist-the-professor-black-dark-hd-wallpaper-thumb.jpg");
+  background-repeat:round;
   background-color:#0b1a2b;
   color: white;
 }
@@ -34,7 +35,8 @@ button {
   width: 20vh;
   font-size: 1rem;
   border-radius: 1rem;
-
+  font-family: 'Dancing Script', cursive;
+  font-size: x-large;
 }
 
 .center {
