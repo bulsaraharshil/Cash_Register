@@ -50,8 +50,7 @@ button {
 }
 
 table {
-  border-style: groove;
-  border-color: black;
+  border-style: none;
   font-size: x-large;
 
 }
