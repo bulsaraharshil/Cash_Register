@@ -25,9 +25,6 @@ function cashHandler() {
             counter = parseInt(sum / notearray[i]);
             sum = sum - notearray[i] * counter;
             noOfNotes[i].innerText = `${counter}`
-            if (sum === 0) {
-                break;
-            }
         }
     }
 }
