@@ -20,7 +20,7 @@ function cashHandler() {
     }
     let counter = 0;
     for (i = 0; i < notearray.length; i++) {
-
+        noOfNotes[i].innerText = "0"
         if (sum / notearray[i] >= 1) {
             counter = parseInt(sum / notearray[i]);
             sum = sum - notearray[i] * counter;
